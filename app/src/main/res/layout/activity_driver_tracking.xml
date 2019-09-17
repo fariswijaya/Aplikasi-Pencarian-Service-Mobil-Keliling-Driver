@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DriverTracking" />
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnGmaps"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:text="Menuju Lokasi"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <Button
+                android:id="@+id/btnCall"
+                android:background="@android:color/holo_green_light"
+                android:textColor="@android:color/white"
+                android:text="Call"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnMsg"
+                android:background="@android:color/holo_green_dark"
+                android:textColor="@android:color/white"
+                android:text="SMS"
+                android:layout_margin="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

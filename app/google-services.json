@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1039512322679",
+    "firebase_url": "https://online-aabe6.firebaseio.com",
+    "project_id": "online-aabe6",
+    "storage_bucket": "online-aabe6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039512322679:android:a7f001b43f84b7ce",
+        "android_client_info": {
+          "package_name": "com.example.faris.revisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039512322679-2m93bun35gsrq6rsvsmbsm7lnadcml1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faris.revisi",
+            "certificate_hash": "940018fd3bad82454969ba82e27733069425340c"
+          }
+        },
+        {
+          "client_id": "1039512322679-e11i65qv9ufkmps35ougrpnl682aqovg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCwM78kL0xA2Y5VjdHaFyZNecaR8I83dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039512322679-e11i65qv9ufkmps35ougrpnl682aqovg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
